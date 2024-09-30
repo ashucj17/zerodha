@@ -1,0 +1,22 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 20px 150px;
+  box-shadow: 2px 1px 2px #eee;
+}
+
+.header_logo {
+  width: 120px;
+}
+
+.menu_items {
+  padding: 25px;
+  text-decoration: none;
+  color: #666;
+  font-size: 17px;
+  font-weight: 400;
+}
