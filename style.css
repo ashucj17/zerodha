@@ -20,3 +20,12 @@
   font-size: 17px;
   font-weight: 400;
 }
+.banner {
+  width: 100%;
+}
+.banner_image {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: 50px auto;
+}
