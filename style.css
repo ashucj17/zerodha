@@ -58,7 +58,7 @@ p {
 
 .content_eco {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   width: 100%;
   padding: 20px 200px;
 }
@@ -67,9 +67,16 @@ p {
   color: #424242;
 }
 .product_img {
-  width: 100%;
+  cursor: pointer;
+  width: 95%;
 }
 .keypoints {
   font-size: 17px;
   color: #666;
+}
+.product_link {
+  text-align: center;
+  text-decoration: none;
+  color: #387ed1;
+  padding: 15px;
 }
