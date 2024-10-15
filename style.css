@@ -56,7 +56,8 @@ p {
   border-radius: 3px;
 }
 
-.content_eco {
+.content_eco,
+.section-five {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -71,7 +72,8 @@ p {
   cursor: pointer;
   width: 95%;
 }
-.keypoints {
+.keypoints,
+.pricing {
   font-size: 17px;
   color: #666;
 }
@@ -80,4 +82,32 @@ p {
   text-decoration: none;
   color: #387ed1;
   padding: 15px;
+}
+.arrow {
+  width: 10px;
+  line-height: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+  color: #387ed1;
+  font-weight: 700;
+}
+.press-logo {
+  text-align: center;
+}
+.pricing-box {
+  box-sizing: border-box;
+  position: relative;
+  left: -20px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  line-height: 16px;
+}
+.section-five-images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
