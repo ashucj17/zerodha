@@ -45,7 +45,8 @@ p {
 .banner_content {
   font-size: 20px;
 }
-.signup_button {
+.signup_button,
+.sign {
   text-decoration: none;
   font-size: 20px;
   color: #fff;
