@@ -4,12 +4,14 @@ console.log(signUp);
 let banner = document.querySelector(".content");
 banner.appendChild(signUp);
 
+let signIn_page = document.createElement("a");
+signIn_page.innerHTML = "About SignUp";
+signIn_page.setAttribute("class", "sign");
+signIn_page.setAttribute("href", "./about.html");
+console.log(signIn_page);
+let content = document.querySelector(".content");
+content.appendChild(signIn_page);
+
 function clickable() {
   alert("button clicked");
-  let signIn_page = document.createElement("a");
-  signIn_page.innerHTML = "About SignUp";
-  signIn_page.setAttribute("class", "sign");
-  console.log(signIn_page);
-  let content = document.querySelector(".content");
-  content.appendChild(signIn_page);
 }
