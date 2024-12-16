@@ -7,7 +7,7 @@ banner.appendChild(signUp);
 let signIn_page = document.createElement("a");
 signIn_page.innerHTML = "About SignUp";
 signIn_page.setAttribute("class", "sign");
-signIn_page.setAttribute("href", "./about.html");
+signIn_page.setAttribute("href", "./signup.html");
 console.log(signIn_page);
 let content = document.querySelector(".content");
 content.appendChild(signIn_page);
